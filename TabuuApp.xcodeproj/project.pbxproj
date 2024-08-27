@@ -11,6 +11,23 @@
 		E33F6FC72C75FCC800CA15F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33F6FC62C75FCC800CA15F2 /* ContentView.swift */; };
 		E33F6FC92C75FCC900CA15F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E33F6FC82C75FCC900CA15F2 /* Assets.xcassets */; };
 		E33F6FCC2C75FCC900CA15F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E33F6FCB2C75FCC900CA15F2 /* Preview Assets.xcassets */; };
+		E33F6FD42C75FDAB00CA15F2 /* TabuWordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33F6FD32C75FDAB00CA15F2 /* TabuWordView.swift */; };
+		E33F6FD62C76005100CA15F2 /* StartGameButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33F6FD52C76005100CA15F2 /* StartGameButtonView.swift */; };
+		E33F6FD82C76237E00CA15F2 /* StartGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33F6FD72C76237E00CA15F2 /* StartGameView.swift */; };
+		E33F6FDA2C7625DB00CA15F2 /* BackButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33F6FD92C7625DB00CA15F2 /* BackButtonView.swift */; };
+		E374D9BA2C77864F00D2D958 /* GameQuestionFirstTeamBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E374D9B92C77864F00D2D958 /* GameQuestionFirstTeamBoxView.swift */; };
+		E38C34462C76673000506459 /* TeamsNamesAndButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38C34452C76673000506459 /* TeamsNamesAndButtonView.swift */; };
+		E38C34482C76683700506459 /* OvalTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38C34472C76683700506459 /* OvalTextFieldStyle.swift */; };
+		E38C344B2C766A2C00506459 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38C344A2C766A2C00506459 /* GameViewModel.swift */; };
+		E398F04F2C79F64A00EBD22A /* GameViewForSecondTeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = E398F04E2C79F64A00EBD22A /* GameViewForSecondTeam.swift */; };
+		E398F0512C79F6B200EBD22A /* GameQuestionSecondTeamBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E398F0502C79F6B200EBD22A /* GameQuestionSecondTeamBoxView.swift */; };
+		E398F0532C79FE2B00EBD22A /* EndGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E398F0522C79FE2B00EBD22A /* EndGameView.swift */; };
+		E3C13CA72C776252006DEAC2 /* GameViewForFirstTeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C13CA62C776252006DEAC2 /* GameViewForFirstTeam.swift */; };
+		E3E59CB92C78B9C20049C9F6 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = E3E59CB82C78B9C20049C9F6 /* FirebaseDatabase */; };
+		E3E59CBB2C78B9C20049C9F6 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E3E59CBA2C78B9C20049C9F6 /* FirebaseFirestore */; };
+		E3E59CBD2C78B9C20049C9F6 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = E3E59CBC2C78B9C20049C9F6 /* FirebaseStorage */; };
+		E3E59CBF2C78BCA60049C9F6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E3E59CBE2C78BCA60049C9F6 /* GoogleService-Info.plist */; };
+		E3E59CC12C78C5070049C9F6 /* ScorePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E59CC02C78C5070049C9F6 /* ScorePageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +36,20 @@
 		E33F6FC62C75FCC800CA15F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E33F6FC82C75FCC900CA15F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E33F6FCB2C75FCC900CA15F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E33F6FD32C75FDAB00CA15F2 /* TabuWordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabuWordView.swift; sourceTree = "<group>"; };
+		E33F6FD52C76005100CA15F2 /* StartGameButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartGameButtonView.swift; sourceTree = "<group>"; };
+		E33F6FD72C76237E00CA15F2 /* StartGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartGameView.swift; sourceTree = "<group>"; };
+		E33F6FD92C7625DB00CA15F2 /* BackButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButtonView.swift; sourceTree = "<group>"; };
+		E374D9B92C77864F00D2D958 /* GameQuestionFirstTeamBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameQuestionFirstTeamBoxView.swift; sourceTree = "<group>"; };
+		E38C34452C76673000506459 /* TeamsNamesAndButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsNamesAndButtonView.swift; sourceTree = "<group>"; };
+		E38C34472C76683700506459 /* OvalTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OvalTextFieldStyle.swift; sourceTree = "<group>"; };
+		E38C344A2C766A2C00506459 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		E398F04E2C79F64A00EBD22A /* GameViewForSecondTeam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewForSecondTeam.swift; sourceTree = "<group>"; };
+		E398F0502C79F6B200EBD22A /* GameQuestionSecondTeamBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameQuestionSecondTeamBoxView.swift; sourceTree = "<group>"; };
+		E398F0522C79FE2B00EBD22A /* EndGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGameView.swift; sourceTree = "<group>"; };
+		E3C13CA62C776252006DEAC2 /* GameViewForFirstTeam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewForFirstTeam.swift; sourceTree = "<group>"; };
+		E3E59CBE2C78BCA60049C9F6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E3E59CC02C78C5070049C9F6 /* ScorePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScorePageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +57,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3E59CB92C78B9C20049C9F6 /* FirebaseDatabase in Frameworks */,
+				E3E59CBB2C78B9C20049C9F6 /* FirebaseFirestore in Frameworks */,
+				E3E59CBD2C78B9C20049C9F6 /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +85,10 @@
 		E33F6FC32C75FCC800CA15F2 /* TabuuApp */ = {
 			isa = PBXGroup;
 			children = (
+				E3E59CBE2C78BCA60049C9F6 /* GoogleService-Info.plist */,
+				E374D9B82C7782EA00D2D958 /* Components */,
+				E38C34492C766A0D00506459 /* Viewmodels */,
+				E33F6FD22C75FD8B00CA15F2 /* Views */,
 				E33F6FC42C75FCC800CA15F2 /* TabuuAppApp.swift */,
 				E33F6FC62C75FCC800CA15F2 /* ContentView.swift */,
 				E33F6FC82C75FCC900CA15F2 /* Assets.xcassets */,
@@ -65,6 +103,40 @@
 				E33F6FCB2C75FCC900CA15F2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E33F6FD22C75FD8B00CA15F2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E398F0502C79F6B200EBD22A /* GameQuestionSecondTeamBoxView.swift */,
+				E374D9B92C77864F00D2D958 /* GameQuestionFirstTeamBoxView.swift */,
+				E3E59CC02C78C5070049C9F6 /* ScorePageView.swift */,
+				E33F6FD72C76237E00CA15F2 /* StartGameView.swift */,
+				E38C34452C76673000506459 /* TeamsNamesAndButtonView.swift */,
+				E3C13CA62C776252006DEAC2 /* GameViewForFirstTeam.swift */,
+				E398F04E2C79F64A00EBD22A /* GameViewForSecondTeam.swift */,
+				E398F0522C79FE2B00EBD22A /* EndGameView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E374D9B82C7782EA00D2D958 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E33F6FD32C75FDAB00CA15F2 /* TabuWordView.swift */,
+				E33F6FD52C76005100CA15F2 /* StartGameButtonView.swift */,
+				E33F6FD92C7625DB00CA15F2 /* BackButtonView.swift */,
+				E38C34472C76683700506459 /* OvalTextFieldStyle.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E38C34492C766A0D00506459 /* Viewmodels */ = {
+			isa = PBXGroup;
+			children = (
+				E38C344A2C766A2C00506459 /* GameViewModel.swift */,
+			);
+			path = Viewmodels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +155,11 @@
 			dependencies = (
 			);
 			name = TabuuApp;
+			packageProductDependencies = (
+				E3E59CB82C78B9C20049C9F6 /* FirebaseDatabase */,
+				E3E59CBA2C78B9C20049C9F6 /* FirebaseFirestore */,
+				E3E59CBC2C78B9C20049C9F6 /* FirebaseStorage */,
+			);
 			productName = TabuuApp;
 			productReference = E33F6FC12C75FCC800CA15F2 /* TabuuApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +188,9 @@
 				Base,
 			);
 			mainGroup = E33F6FB82C75FCC800CA15F2;
+			packageReferences = (
+				E3E59CB72C78B9C20049C9F6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = E33F6FC22C75FCC800CA15F2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +207,7 @@
 			files = (
 				E33F6FCC2C75FCC900CA15F2 /* Preview Assets.xcassets in Resources */,
 				E33F6FC92C75FCC900CA15F2 /* Assets.xcassets in Resources */,
+				E3E59CBF2C78BCA60049C9F6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +218,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E38C344B2C766A2C00506459 /* GameViewModel.swift in Sources */,
+				E398F0512C79F6B200EBD22A /* GameQuestionSecondTeamBoxView.swift in Sources */,
 				E33F6FC72C75FCC800CA15F2 /* ContentView.swift in Sources */,
+				E3E59CC12C78C5070049C9F6 /* ScorePageView.swift in Sources */,
+				E398F0532C79FE2B00EBD22A /* EndGameView.swift in Sources */,
+				E33F6FD62C76005100CA15F2 /* StartGameButtonView.swift in Sources */,
 				E33F6FC52C75FCC800CA15F2 /* TabuuAppApp.swift in Sources */,
+				E3C13CA72C776252006DEAC2 /* GameViewForFirstTeam.swift in Sources */,
+				E38C34462C76673000506459 /* TeamsNamesAndButtonView.swift in Sources */,
+				E33F6FD82C76237E00CA15F2 /* StartGameView.swift in Sources */,
+				E398F04F2C79F64A00EBD22A /* GameViewForSecondTeam.swift in Sources */,
+				E33F6FD42C75FDAB00CA15F2 /* TabuWordView.swift in Sources */,
+				E374D9BA2C77864F00D2D958 /* GameQuestionFirstTeamBoxView.swift in Sources */,
+				E33F6FDA2C7625DB00CA15F2 /* BackButtonView.swift in Sources */,
+				E38C34482C76683700506459 /* OvalTextFieldStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +438,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E3E59CB72C78B9C20049C9F6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E3E59CB82C78B9C20049C9F6 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E3E59CB72C78B9C20049C9F6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		E3E59CBA2C78B9C20049C9F6 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E3E59CB72C78B9C20049C9F6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		E3E59CBC2C78B9C20049C9F6 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E3E59CB72C78B9C20049C9F6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E33F6FB92C75FCC800CA15F2 /* Project object */;
 }

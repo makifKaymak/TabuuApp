@@ -9,16 +9,30 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        
+        
+        NavigationStack {
+            
+            VStack {
+                TabuWordView()
+                
+                NavigationLink(destination: StartGameView()) {
+                    StartGameButtonView()
+                }
+                
+            }
+            .ignoresSafeArea()
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .background(LinearGradient(colors: [Color("color1"), Color("color2")], startPoint: .topLeading, endPoint: .bottomTrailing))
+            
         }
-        .padding()
+        .tint(Color("textColorOnStartGameViewFrame"))
+        .navigationBarBackButtonHidden(true)
+    
     }
 }
 
 #Preview {
     ContentView()
 }
+
